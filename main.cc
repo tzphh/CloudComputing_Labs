@@ -40,7 +40,7 @@ void *pthread_solve(void *args)
     bool (*solve)(int,int[],int,int[])=solve_sudoku_basic;//使用basic算法
     //bool (*solve)(int,int[],int,int[])=solve_sudoku_dancing_links
     int board[N];
-    int spaces[N];
+    int spaces[N];//空格位置
     while (!shutdown)
     {
         int id=recvAJob();            //获取任务

@@ -54,7 +54,7 @@ void *pthread_solve(void *args)
                 Answer[id][i] = char('0' + board[i]);
             pthread_mutex_lock(&mutex);
             succeed_solve++;
-            pthread_mutex_unlock(&mutex);
+            pthread_mutex_unlock(&mutex);//处理下一行
         }
         else{
             printf("第%d,行数独无解\n", id);

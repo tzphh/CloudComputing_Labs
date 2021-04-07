@@ -75,7 +75,7 @@ int64_t now()
 }
 int main(int argc, char *argv[])
 {
-    init_neighbors();
+    init_neighbors();//初始化
     int64_t start = now();//开始计时
     FILE* fp = fopen(argv[1],"r");
     for (int i = 0; i <Numphread; i++){
@@ -93,7 +93,7 @@ int main(int argc, char *argv[])
     }
     for (int i = 0; i < Numphread; i++)
         pthread_join(th[i], NULL);
-    printf("数独解法如下所示:\n" );
+    printf("数独解法如下所示:\n" );//打印结果
     Print();
     int64_t end = now();
     double sec = (end - start) / 1000000.0;

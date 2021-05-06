@@ -8,3 +8,5 @@ GET请求（包含DELETE,PUT）客户端为GETclient.c，用gcc编译生成可�
 POST请求客户端为POSTclient.c，用gcc编译生成可执行文件为post（gcc POSTclient.c -o post），运行命令为./post ip port num。num为请求的连接数。
 
 若运行时出现文件数过多的报错，是因为句柄开太多的缘故。输入ulimit -n 8192对最大文件数进行修改。
+
+运行各种请求类型所得到的报文结果在“实验结果截图”文件夹中。

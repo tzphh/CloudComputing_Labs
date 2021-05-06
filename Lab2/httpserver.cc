@@ -15,7 +15,7 @@ pthread_mutex_t mutex;
 pthread_mutex_t lock;
 int total=0;
 
-void Error_dealer(string method,string url,int sockfd)//错误处理
+void Error_dealer(string method,string url,int sockfd)//对错误的处理
 {
 	string entity;
 	if(method!="GET"&&method!="POST"){   //GET和POST之外的请求返回501

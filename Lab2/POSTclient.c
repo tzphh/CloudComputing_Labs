@@ -16,7 +16,7 @@ void delay(unsigned int xms)  // xms代表需要延时的毫秒数
 int64_t now()
 {
     struct timeval tv;
-    gettimeofday(&tv, NULL); // 获取当前精确时间
+    gettimeofday(&tv, NULL); // 获取当前的精确时间
     return tv.tv_sec * 1000000 + tv.tv_usec;
 }
 int main(int argc, char *argv[])

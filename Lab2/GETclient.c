@@ -7,7 +7,7 @@
 #include <sys/socket.h>
 #include <unistd.h>
 #include <netinet/in.h>
-void delay(unsigned int xms)  // xms代表需要延时的毫秒数
+void delay(unsigned int xms)  // xms是需要延时的毫秒数
 {
     unsigned int x,y;
     for(x=xms;x>0;x--)

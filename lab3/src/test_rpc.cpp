@@ -79,7 +79,7 @@ int main()
     client.set_timeout(200);
 
     make_set_rpc(set_cmd, client);
-    // make_set_rpc(set_req3, client);
+    //make_set_rpc(set_req3, client);
     make_del_rpc(del_cmd, client);
 
     for (auto &future : futures)
@@ -92,8 +92,8 @@ int main()
         }
     }
 
-    // make_get_rpc(get_req, client);
-    // make_get_rpc(get_req2, client);
+    //make_get_rpc(get_req, client);
+    //make_get_rpc(get_req2, client);
 
     for (;;) {}
 }

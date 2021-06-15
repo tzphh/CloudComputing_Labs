@@ -1,4 +1,4 @@
-CXX = g++ -pthread	# Quirks with GCC.
+CXX = g++ -pthread	#  Quirks with GCC.
 OPTIMIZE_LEVEL ?= -O3
 CXXFLAGS = -std=c++11 -Wall -Wextra ${OPTIMIZE_LEVEL}
 

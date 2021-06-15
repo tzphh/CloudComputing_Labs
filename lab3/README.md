@@ -2,7 +2,7 @@
 
 ## Requirments
 
-- Linux/macOS.
+- Linux / macOS.
 - GNU make.
 - C++11 compliant compiler.
 

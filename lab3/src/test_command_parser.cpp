@@ -1,6 +1,9 @@
 #include <string>
+
 #include <iostream>
+
 #include "command_parser.hpp"
+
 using namespace cdb;
 
 template <class command_t>

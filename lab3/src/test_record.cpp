@@ -1,5 +1,7 @@
 #include <iostream>
+
 #include "../third_party/flags.hh/Flags.hh"
+
 #include "record.hpp"
 
 void log(cdb::record_manager &manager, std::uint8_t s, std::uint32_t id, std::uint32_t next_id)
